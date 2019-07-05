@@ -1,0 +1,40 @@
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.details__image {
+    height: 100%;
+    width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.details__header {
+    display: flex;
+    height: 300px;
+}
+
+.details__header-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.details-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details-form input,
+.details-form button {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    border: solid 1px #00000033;
+    font-size: 1.5rem;
+    box-shadow: 1px 3px 3px 0 #00000012;
+}
